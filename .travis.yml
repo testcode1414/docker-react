@@ -1,3 +1,4 @@
+sudo: required
 language: node_js
 
 services:
@@ -8,7 +9,3 @@ before_install:
 
 script:
   - docker run -e CI=true sumitduwal/docker-react npm run test
-
-  #resr#test
-
-  #this is tersdt
